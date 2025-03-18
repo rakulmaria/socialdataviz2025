@@ -21,17 +21,30 @@
 title: Your awesome title
 email: rakulmaria@hotmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  This project was developed as part of the course [02806 Social data analysis and visualization](https://kurser.dtu.dk/course/02806) taught at
+  DTU in spring 2025 by [Sune Lehmann](https://sunelehmann.com/about/). 
+  The project was my final exam project for the course, where I seeked to investigate something super interesting.
 baseurl: "/socialdataviz2025"
 url: "https://rakulmaria.github.io"
 github_username:  rakulmaria
 
 # Build settings
-theme: minima
+# Removed minima theme, as I'm using the regular theme
+# theme: minima
 plugins:
   - jekyll-feed
+#   - jekyll-remote-theme
+
+# remote_theme: jekyll/minima
+
+# minima:
+#   skin: dark
+
+timezone: Europe/Copenhagen
+
+# author:
+#   name: Rakul Maria Hjalmarsdóttir Tórgarð
+#   email: "rakulmaria@hotmail.com"
 
 # Exclude from processing.
 # The following items will not be processed, by default.
