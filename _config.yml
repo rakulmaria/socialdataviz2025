@@ -18,19 +18,16 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Your awesome title
+title: A very cool data visualisation blog
 email: rakulmaria@hotmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  This project was developed as part of the course [02806 Social data analysis and visualization](https://kurser.dtu.dk/course/02806) taught at
-  DTU in spring 2025 by [Sune Lehmann](https://sunelehmann.com/about/). 
-  The project was my final exam project for the course, where I seeked to investigate something super interesting.
+  Final exam for the very cool course, Social Data Visualisation taught by Sune Lehmann
 baseurl: "/socialdataviz2025"
 url: "https://rakulmaria.github.io"
 github_username:  rakulmaria
 
 # Build settings
-# Removed minima theme, as I'm using the regular theme
-# theme: minima
+theme: minima
 plugins:
   - jekyll-feed
 #   - jekyll-remote-theme
