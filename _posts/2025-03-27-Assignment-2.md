@@ -34,14 +34,12 @@ The interactive map below shows the trends in the different neighbourhoods in Sa
 
 However, it's still worth to notice that there are specific areas that haven't achieved a decrease from 2019 to today. These areas include Taraval, Richmond, Mission and Ingleside. The following graph allows you to explore the data in a bar-chart from 2019 to 2024, where the values have been normalised in order to show the trends over time. Each district is available as an option on the legend, and clicking a district will display it on the graph. This allows to explore the trends by choosing different combinations of district. Try picking Central and Taraval and see the difference!
 
-<figure>
-    <iframe src="../misc/bokeh_plot.html" width="100%" height="600px" style="border:none;"></iframe>
-    <figcaption style="text-align: center; font-style: italic;">
-        Figure 3: Reported burglaries in San Fransisco, showing the trend in the different districts over time during the COVID-19 pandemic. Values are normalised to show trends.
-    </figcaption>
-</figure>
-
-{% include bokeh_plot.html %}
+<div style="text-align:center">
+    {% include bokeh_plot.html %}
+<figcaption>
+    Figure 3: Reported burglaries in San Fransisco, showing the trend in the different districts over time during the COVID-19 pandemic. Values are normalised to show trends.
+</figcaption>
+</didv>
 
 # Comments
 
