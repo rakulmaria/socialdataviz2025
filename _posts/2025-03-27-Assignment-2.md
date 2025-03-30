@@ -16,17 +16,17 @@ Burglaries is a crime that has been reported frequently in San Fransisco, but ne
 
 
 ![fig1.png]({{site.baseurl}}/assets/img/fig1.png)
-<figcaption style="text-align: center;">Figure 1: Total reported offenses of burglaries in San Fransisco, 2003 to 2024. The spike in 2020 shows an increase of 53.5%; going from 5922 reported incidents pre-COVID-19 to 9092 reported incidents during COVID-19.</figcaption>
+<figcaption style="text-align: center; font-style: italic; padding-bottom: 10px;">Figure 1: Total reported offenses of burglaries in San Fransisco, 2003 to 2024. The spike in 2020 shows an increase of 53.5%; going from 5922 reported incidents pre-COVID-19 to 9092 reported incidents during COVID-19.</figcaption>
 
 But what caused the count of burglaries to rise in San Fransisco during the COVID-19 pandemic? And what neighbourhoods were mostly affected by this?
 
-## Affected neighbourhoods
+# Affected neighbourhoods
 
 The interactive map below shows the trends in the different neighbourhoods in San Fransisco, having 2019 as the "base" year, meaning that a increase or decrease in the number of reported burglaries is calculated from the initial value in 2019. As the map indicates, some districts were more affected than other. Especially Park, Northen, Richmond and Mission were the mostly affected, containing a percentage rise in the count of burglaries ranging from 80% to 125% just from 2019 to 2020. There is a overall trend in increasing counts of burglaries throughout the years 2019 - 2022, before some areas (such as Central, Southern and Bayview) begin to decrease again in 2023 and 2024. The map allows you to explore the trends over time from 2019 to 2024, and as time passes and COVID-19 becomes a part of our history instead of our everyday life, the map turns more green/orange, hopefully indicating a decrease in burglary, although the reported incidents in 2024 remain larger than in 2019. 
 
-<div style="text-align:center">
+<div style="text-align:center;">
     {% include sf-districts.html %}
-<figcaption>
+<figcaption style="text-align: center; font-style: italic; padding-bottom: 10px;">
     Figure 2: Map of San Fransisco showing trends in the neighbourhoods from 2018 to 2024. The values on the map are calculated as a percentile value based on the 2019 (pre-COVID-19) statistics. This means that an increase or decrease in the total number of reported burglaries are calculated from the initial value in 2019.
 </figcaption>
 </div>
@@ -35,7 +35,7 @@ However, it's still worth to notice that there are specific areas that haven't a
 
 <div style="text-align:center">
     {% include bokeh_plot.html %}
-<figcaption>
+<figcaption style="text-align: center; font-style: italic; padding-bottom: 10px;">
     Figure 3: Reported burglaries in San Fransisco, showing the trend in the different districts over time during the COVID-19 pandemic. Values are normalised to show trends.
 </figcaption>
 </div>
