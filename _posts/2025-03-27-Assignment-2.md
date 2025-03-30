@@ -24,12 +24,12 @@ But what caused the count of burglaries to rise in San Fransisco during the COVI
 
 The interactive map below shows the trends in the different neighbourhoods in San Fransisco, having 2019 as the "base" year, meaning that a increase or decrease in the number of reported burglaries is calculated from the initial value in 2019. As the map indicates, some districts were more affected than other. Especially Park, Northen, Richmond and Mission were the mostly affected, containing a percentage rise in the count of burglaries ranging from 80% to 125% just from 2019 to 2020. There is a overall trend in increasing counts of burglaries throughout the years 2019 - 2022, before some areas (such as Central, Southern and Bayview) begin to decrease again in 2023 and 2024. The map allows you to explore the trends over time from 2019 to 2024, and as time passes and COVID-19 becomes a part of our history instead of our everyday life, the map turns more green/orange, hopefully indicating a decrease in burglary, although the reported incidents in 2024 remain larger than in 2019. 
 
-<figure>
-    <iframe src="../misc/sf-districts.html" width="100%" height="600px" style="border:none;"></iframe>
-    <figcaption style="text-align: center;">
-        Figure 2: Map of San Fransisco showing trends in the neighbourhoods from 2018 to 2024. The values on the map are calculated as a percentile value based on the 2019 (pre-COVID-19) statistics. This means that an increase or decrease in the total number of reported burglaries are calculated from the initial value in 2019.
-    </figcaption>
-</figure>
+<div style="text-align:center">
+    {% include sf-districts.html %}
+<figcaption>
+    Figure 2: Map of San Fransisco showing trends in the neighbourhoods from 2018 to 2024. The values on the map are calculated as a percentile value based on the 2019 (pre-COVID-19) statistics. This means that an increase or decrease in the total number of reported burglaries are calculated from the initial value in 2019.
+</figcaption>
+</div>
 
 However, it's still worth to notice that there are specific areas that haven't achieved a decrease from 2019 to today. These areas include Taraval, Richmond, Mission and Ingleside. The following graph allows you to explore the data in a bar-chart from 2019 to 2024, where the values have been normalised in order to show the trends over time. Each district is available as an option on the legend, and clicking a district will display it on the graph. This allows to explore the trends by choosing different combinations of district. Try picking Central and Taraval and see the difference!
 
