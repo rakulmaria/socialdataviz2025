@@ -15,7 +15,7 @@ A time we all will remember like isolation, keeping our distances and wearing a 
 Burglaries is a crime that has been reported frequently in San Fransisco, but never have the trends been so high as during the pandemic and the years coming after. The graph below displays the number of reported burglaries in San Fransisco, over the period of time from 2003 to 2024. The first case of COVID-19 in the San Francisco Bay Area was confirmed in Santa Clara County on January 31, 2020, and exactly this year there was a huge spike in the graph, showing an increase in 53.5 %, from 5922 reported incidents in 2019 and 9092 reported incidents in 2020 [^1].
 
 
-![fig1.png](/images/fig1.png)
+![fig1.png](/assets/img/fig1.png)
 <figcaption style="text-align: center;">Figure 1: Total reported offenses of burglaries in San Fransisco, 2003 to 2024. The spike in 2020 shows an increase of 53.5%; going from 5922 reported incidents pre-COVID-19 to 9092 reported incidents during COVID-19.</figcaption>
 
 But what caused the count of burglaries to rise in San Fransisco during the COVID-19 pandemic? And what neighbourhoods were mostly affected by this?
