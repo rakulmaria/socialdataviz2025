@@ -41,6 +41,8 @@ However, it's still worth to notice that there are specific areas that haven't a
     </figcaption>
 </figure>
 
+{% include bokeh_plot.html %}
+
 # Comments
 
 > I'd like to take this opportunity to explain that during my research for other litterature, I stumbled upon several interesting articles by Susan Nielson, an author at the San Fransisco Cronicle [^2][^3][^4]. However unfortunately they were unavailable to me, due to restricted access to the website. I was only able to read the headings and short summary, before being prompted with a pop-up, requiring a paid subscription. So although I managed to find some resources, I was unable to fully dig into them, but I could clearly see that I was not the only one who had gotten an interest in this particular topic. Therefore I think it's worthwile to mention these references I found.
